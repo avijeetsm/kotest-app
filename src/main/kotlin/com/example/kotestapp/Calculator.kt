@@ -7,9 +7,9 @@ class Calculator {
     
     fun multiply(a: Int, b: Int): Int = a * b
     
-    fun divide(a: Int, b: Int): Int {
-        require(b != 0) { "Cannot divide by zero" }
-        return a / b
+    fun divide(one: Int, two: Int): Int {
+        require(two != 0) { "Cannot divide by zero" }
+        return one / two
     }
     
     fun factorial(n: Int): Long {

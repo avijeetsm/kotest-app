@@ -17,7 +17,7 @@ class CalculatorTest : FunSpec({
     }
     
     test("Subtraction should work correctly") {
-        calculator.subtract(5, 3) shouldBe 2
+        calculator.subtract(6, 3) shouldBe 3
         calculator.subtract(1, 5) shouldBe -4
         calculator.subtract(0, 0) shouldBe 0
     }
